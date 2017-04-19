@@ -26,8 +26,7 @@ public class Ex2Client {
 			int[] array = new int[100];
 			byte[] byteArray = new byte[100];
 			
-			System.out.println("Received byte:")
-			;
+			System.out.println("Received byte:");
 			for(int i = 0; i < array.length; i++){
 				int byte1 = is.read();			//holds first half
 				int byte2 = is.read();			//holds second half
